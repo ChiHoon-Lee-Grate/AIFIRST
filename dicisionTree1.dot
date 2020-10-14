@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="aver_amt <= -0.999\nsamples = 105490\nvalue = [97905, 7585]\nclass = age", fillcolor="#e78b48"] ;
+1 [label="CORP_CRGD_CD <= -0.9\nsamples = 50936\nvalue = [44240, 6696]\nclass = age", fillcolor="#e99457"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="aver_amt <= -1.0\nsamples = 14081\nvalue = [10749, 3332]\nclass = age", fillcolor="#eda876"] ;
+1 -> 2 ;
+3 [label="samples = 8334\nvalue = [5857, 2477]\nclass = age", fillcolor="#f0b68d"] ;
+2 -> 3 ;
+4 [label="samples = 5747\nvalue = [4892, 855]\nclass = age", fillcolor="#ea975c"] ;
+2 -> 4 ;
+5 [label="auto_count <= -0.5\nsamples = 36855\nvalue = [33491, 3364]\nclass = age", fillcolor="#e88e4d"] ;
+1 -> 5 ;
+6 [label="samples = 3546\nvalue = [2650, 896]\nclass = age", fillcolor="#eeac7c"] ;
+5 -> 6 ;
+7 [label="samples = 33309\nvalue = [30841, 2468]\nclass = age", fillcolor="#e78b49"] ;
+5 -> 7 ;
+8 [label="aver_amt <= -0.999\nsamples = 54554\nvalue = [53665, 889]\nclass = age", fillcolor="#e5833c"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="card_bal <= -0.5\nsamples = 8062\nvalue = [7619, 443]\nclass = age", fillcolor="#e78845"] ;
+8 -> 9 ;
+10 [label="samples = 5017\nvalue = [4645, 372]\nclass = age", fillcolor="#e78b49"] ;
+9 -> 10 ;
+11 [label="samples = 3045\nvalue = [2974, 71]\nclass = age", fillcolor="#e6843e"] ;
+9 -> 11 ;
+12 [label="aver_amt <= -0.994\nsamples = 46492\nvalue = [46046, 446]\nclass = age", fillcolor="#e5823b"] ;
+8 -> 12 ;
+13 [label="samples = 28310\nvalue = [27880, 430]\nclass = age", fillcolor="#e5833c"] ;
+12 -> 13 ;
+14 [label="samples = 18182\nvalue = [18166, 16]\nclass = age", fillcolor="#e58139"] ;
+12 -> 14 ;
+}
